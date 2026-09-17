@@ -1,0 +1,2 @@
+export interface Author { name:string; role:string; bio:string; avatar:string; socials?:{label:string;url:string}[] }
+export interface Article { title:string; slug:string; excerpt:string; image:string; imageAlt:string; author:Author; published:string; updated:string; category:string; tags:string[]; readingTime:number; featured?:boolean; popular?:boolean; content:{heading?:string;paragraphs:string[]}[]; references:{label:string;url:string}[] }

@@ -1,0 +1,1 @@
+export const SITE={name:import.meta.env.VITE_SITE_NAME||'Ruang Tumbuh',url:(import.meta.env.VITE_SITE_URL||'https://domainanda.com').replace(/\/$/,''),description:'Ide praktis untuk hidup, belajar, dan bekerja dengan lebih sadar.',adsenseClient:import.meta.env.VITE_ADSENSE_CLIENT||''};
